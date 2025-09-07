@@ -1,4 +1,4 @@
-# Guia de Referência Rápida — JavaScript
+# Guia de Referência Rápida — JavaScript <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" align="center" height="60" width="50">
 
 Este arquivo reúne todos os comandos, funções, palavras-chave e conceitos mencionados em nossas conversas sobre **JavaScript**.  
 Eles estão organizados em categorias para facilitar sua consulta. Sempre que surgirem novos termos, a tabela será atualizada!
