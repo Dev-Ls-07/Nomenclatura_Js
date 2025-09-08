@@ -68,6 +68,28 @@ Eles estão organizados em categorias para facilitar sua consulta. Sempre que su
 
 ## 📝 Template String / Interpolação
 
+**Descrição:**  
+Template strings (ou _template literals_) são formas modernas de montar textos em JavaScript usando crases (\``\`) e a interpolação de variáveis com `${}`.  
+Se você não usar template strings, pode montar textos unindo (concatenando) partes com o sinal de `+`.
+
+**Exemplo usando template string:**
+```js
+let nome = "Lucas";
+console.log(`Olá, ${nome}!`);
+```
+
+**Exemplo usando concatenação (+):**
+```js
+let nome = "Lucas";
+console.log("Olá, " + nome + "!");
+```
+
+**Resumo:**  
+- Template strings facilitam a inclusão de variáveis e quebras de linha.
+- Se não usar crases, utilize o `+` para juntar textos e variáveis.
+
+---
+
 | Palavra/Comando   | Origem do Nome                 | O que faz / Para que serve?                                                                              |
 |-------------------|-------------------------------|----------------------------------------------------------------------------------------------------------|
 | `` `${}` ``         | Interpolação de variável      | Permite inserir valores de variáveis/expressões dentro de strings usando crases (``).                   |
@@ -97,6 +119,25 @@ const url3 = `#/test?busca=${busca}`; // "#/test?busca=search"
 
 - Qualquer caractere pode ser interpolado, desde que esteja dentro das crases e, para variáveis, dentro de `${}`.
 - Diferentes caracteres (`#`, `?`, `/`) possuem significado especial em URLs, mas na interpolação JS são tratados como texto.
+
+---
+
+### Concatenação com +
+
+**Descrição:**  
+Antes do template string, a principal forma de montar textos dinâmicos era usando o operador `+` para concatenar (juntar) strings e variáveis.
+
+**Exemplo:**
+```js
+let usuario = "Maria";
+let mensagem = "Bem-vinda, " + usuario + "!";
+console.log(mensagem); // Bem-vinda, Maria!
+```
+
+- Cada parte entre aspas é texto fixo.
+- As variáveis (ou expressões) são concatenadas com `+`.
+
+---
 
 ### Conjuntos de Interpolação
 
